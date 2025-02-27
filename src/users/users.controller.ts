@@ -8,6 +8,7 @@ import {
   Delete,
   Query,
 } from '@nestjs/common';
+import { UsersService } from './users.service';
 
 @Controller('users') // main route /users
 export class UsersController {
